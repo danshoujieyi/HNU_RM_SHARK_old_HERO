@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="rtthread"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/RT-Thread/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/RT-Thread/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/RT-Thread/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/RT-Thread/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rtthread.elf">
+				<Option output="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/cmake-build-debug/rtthread.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DRT_USING_LIBC"/>
+					<Add option="-DRT_USING_NEWLIBC"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-D_POSIX_C_SOURCE=1"/>
+					<Add option="-D__RTTHREAD__"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/applications"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/libc/compilers/common/include"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/libc/compilers/newlib"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/libcpu/arm/common"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/libcpu/arm/cortex-m4"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/drivers/include"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/drivers/spi"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/board"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/board/CubeMX_Config/Inc"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/HAL_Drivers"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/HAL_Drivers/config"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/HAL_Drivers/CMSIS/Include"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/finsh"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/."/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/include"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/libc/posix/io/epoll"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/libc/posix/io/eventfd"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/libc/posix/io/poll"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/libc/posix/ipc"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/algorithm"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/algorithm/user_lib"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/algorithm/pid"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/algorithm/QuaternionEKF"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/algorithm/kalman_filter"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/algorithm/ramp"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/algorithm/arm_math"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/motor"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/motor/DJI_motor"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/dwt"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/msg"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/mag"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/mag/ist8310"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/imu"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/imu/bmi088"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/rc/sbus"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/task"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/task/ins"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/task/motor"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/task/cmd"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/task/chassis"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/task/gimbal"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/task/transmission"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/task/shoot"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/drivers/usb/usbdevice"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src"/>
+					<Add directory="i:\clion\gcc-arm-none-eabi-10.3-2021.10\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="i:\clion\gcc-arm-none-eabi-10.3-2021.10\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="i:\clion\gcc-arm-none-eabi-10.3-2021.10\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="i:\clion\gcc-arm-none-eabi-10.3-2021.10\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="i:\clion\gcc-arm-none-eabi-10.3-2021.10\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="i:\clion\gcc-arm-none-eabi-10.3-2021.10\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/RT-Thread/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/cmake-build-debug/Makefile&quot;  VERBOSE=1 rtthread.elf"/>
+					<CompileFile command="D:/RT-Thread/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/RT-Thread/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/RT-Thread/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rtthread.elf/fast">
+				<Option output="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/cmake-build-debug/rtthread.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DRT_USING_LIBC"/>
+					<Add option="-DRT_USING_NEWLIBC"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-D_POSIX_C_SOURCE=1"/>
+					<Add option="-D__RTTHREAD__"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/applications"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/libc/compilers/common/include"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/libc/compilers/newlib"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/libcpu/arm/common"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/libcpu/arm/cortex-m4"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/drivers/include"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/drivers/spi"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/board"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/board/CubeMX_Config/Inc"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/HAL_Drivers"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/HAL_Drivers/config"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/HAL_Drivers/CMSIS/Include"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/finsh"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/."/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/include"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/libc/posix/io/epoll"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/libc/posix/io/eventfd"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/libc/posix/io/poll"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/libc/posix/ipc"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/algorithm"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/algorithm/user_lib"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/algorithm/pid"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/algorithm/QuaternionEKF"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/algorithm/kalman_filter"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/algorithm/ramp"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/algorithm/arm_math"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/motor"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/motor/DJI_motor"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/dwt"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/msg"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/mag"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/mag/ist8310"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/imu"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/imu/bmi088"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/rc/sbus"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/task"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/task/ins"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/task/motor"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/task/cmd"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/task/chassis"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/task/gimbal"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/task/transmission"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/task/shoot"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/drivers/usb/usbdevice"/>
+					<Add directory="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src"/>
+					<Add directory="i:\clion\gcc-arm-none-eabi-10.3-2021.10\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="i:\clion\gcc-arm-none-eabi-10.3-2021.10\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="i:\clion\gcc-arm-none-eabi-10.3-2021.10\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="i:\clion\gcc-arm-none-eabi-10.3-2021.10\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="i:\clion\gcc-arm-none-eabi-10.3-2021.10\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="i:\clion\gcc-arm-none-eabi-10.3-2021.10\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/RT-Thread/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/cmake-build-debug/Makefile&quot;  VERBOSE=1 rtthread.elf/fast"/>
+					<CompileFile command="D:/RT-Thread/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/RT-Thread/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/RT-Thread/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/RT-Thread/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/RT-Thread/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/RT-Thread/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/RT-Thread/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/RT-Thread/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/RT-Thread/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/RT-Thread/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/RT-Thread/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/applications/main.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/board/CubeMX_Config/Src/stm32f4xx_hal_msp.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/board/board.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/board/board.h">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/HAL_Drivers/drv_can.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/HAL_Drivers/drv_can.h">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/HAL_Drivers/drv_common.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/HAL_Drivers/drv_common.h">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/HAL_Drivers/drv_gpio.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/HAL_Drivers/drv_gpio.h">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/HAL_Drivers/drv_pwm.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/HAL_Drivers/drv_soft_i2c.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/HAL_Drivers/drv_soft_i2c.h">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/HAL_Drivers/drv_spi.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/HAL_Drivers/drv_spi.h">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/HAL_Drivers/drv_tim.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/HAL_Drivers/drv_tim.h">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/HAL_Drivers/drv_usart.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/HAL_Drivers/drv_usart.h">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/HAL_Drivers/drv_usbd.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f407xx.s">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/drivers/can/can.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/drivers/core/device.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/drivers/hwtimer/hwtimer.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/drivers/i2c/i2c-bit-ops.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/drivers/i2c/i2c_core.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/drivers/i2c/i2c_dev.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/drivers/ipc/completion.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/drivers/ipc/dataqueue.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/drivers/ipc/pipe.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/drivers/ipc/ringblk_buf.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/drivers/ipc/ringbuffer.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/drivers/ipc/waitqueue.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/drivers/ipc/workqueue.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/drivers/misc/pin.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/drivers/misc/rt_drv_pwm.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/drivers/serial/serial.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/drivers/spi/spi_core.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/drivers/spi/spi_dev.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/drivers/usb/usbdevice/class/cdc_vcom.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/drivers/usb/usbdevice/core/usbdevice.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/drivers/usb/usbdevice/core/usbdevice_core.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/finsh/cmd.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/finsh/msh.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/finsh/msh.h">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/finsh/msh_parse.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/finsh/msh_parse.h">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/finsh/shell.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/finsh/shell.h">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/libc/compilers/common/cctype.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/libc/compilers/common/cstdlib.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/libc/compilers/common/cstring.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/libc/compilers/common/ctime.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/libc/compilers/common/cunistd.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/libc/compilers/common/cwchar.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/components/libc/compilers/newlib/syscalls.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/libcpu/arm/common/atomic_arm.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/libcpu/arm/common/div0.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/libcpu/arm/common/showmem.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/libcpu/arm/cortex-m4/context_gcc.S">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/libcpu/arm/cortex-m4/cpuport.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/libcpu/arm/cortex-m4/cpuport.h">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/src/clock.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/src/components.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/src/idle.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/src/ipc.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/src/irq.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/src/kservice.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/src/mem.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/src/mempool.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/src/object.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/src/scheduler_up.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/src/thread.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/rt-thread/src/timer.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/algorithm/QuaternionEKF/QuaternionEKF.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/algorithm/QuaternionEKF/QuaternionEKF.h">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/algorithm/kalman_filter/kalman_filter.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/algorithm/kalman_filter/kalman_filter.h">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/algorithm/pid/pid.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/algorithm/pid/pid.h">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/algorithm/ramp/ramp.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/algorithm/ramp/ramp.h">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/algorithm/user_lib/user_lib.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/algorithm/user_lib/user_lib.h">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/dwt/drv_dwt.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/dwt/drv_dwt.h">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/imu/bmi088/bmi088.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/imu/bmi088/bmi088.h">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/mag/ist8310/ist8310.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/mag/ist8310/ist8310.h">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/motor/DJI_motor/dji_motor.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/motor/DJI_motor/dji_motor.h">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/msg/drv_msg.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/msg/drv_msg.h">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/rc/sbus/rc_sbus.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/rc/sbus/rc_sbus.h">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/usr_callback.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/modules/usr_callback.h">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/task/chassis/chassis_task.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/task/chassis/chassis_task.h">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/task/cmd/cmd_task.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/task/cmd/cmd_task.h">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/task/gimbal/gimbal_task.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/task/gimbal/gimbal_task.h">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/task/ins/ins_task.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/task/ins/ins_task.h">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/task/motor/motor_task.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/task/motor/motor_task.h">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/task/robot.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/task/shoot/shoot_task.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/task/shoot/shoot_task.h">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/task/transmission/transmission_task.c">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/src/task/transmission/transmission_task.h">
+			<Option target="rtthread.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/liujiajun/Desktop/HNU_RM_SHARKC-feature/HNU_RM_SHARKC-feature/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
